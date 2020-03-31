@@ -6,11 +6,10 @@ public class Main {
 	Perceptron p = new Perceptron("Iris-setosa",1);
 
         System.out.println("-----------------------KONIEC-----------------------");
-        System.out.println(p.wagi.x0);
-        System.out.println(p.wagi.x1);
-        System.out.println(p.wagi.x2);
-        System.out.println(p.wagi.x3);
         p.sprawdzenieListy();
+        System.out.println("================================");
+        System.out.println("Wprowadź własne atrybuty: \nPrzykład: '6.3 2.9 5.6 1.8' \nNapisz 'end' by zakonczyc program");
+        p.sprawdzWpisane();
 
     }
 }
